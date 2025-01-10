@@ -113,6 +113,12 @@
 .sliderarea{
     padding-bottom: 200px;
 }
+.slider .slide {
+    position: static !important;
+}
+.slider {
+    position: relative !important;
+}
  .featurearea .slider img{    
     border-radius: 20px;
     width: 100%;
@@ -182,9 +188,9 @@
     width: 1.8rem !important;
     height: 1.35rem !important;
 }
-.carousel-control-next {
+/* .carousel-control-next {
     right: -22px !important;
-}
+} */
 
 /* only for slider ends here */
 
@@ -432,7 +438,7 @@
         top: 32% !important;
         width: 30px !important;
         height: 30px !important;
-        left: 258px;
+        /* left: 258px; */
     }
     .carousel-control-next-icon {
         width: 0.8rem !important;
@@ -594,7 +600,7 @@
         top: 39% !important;
         width: 34px !important;
         height: 35px !important;
-        left: 341px;
+        /* left: 341px; */
         /* right: -10 !important; */
     }
     .carousel-control-next-icon {
@@ -645,7 +651,7 @@
         top: 33% !important;
         width: 34px !important;
         height: 35px !important;
-        left: 289px;
+        /* left: 289px; */
     }
 }
 @media screen and (min-width:1200px) and (max-width:1440px){
