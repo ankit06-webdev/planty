@@ -53,34 +53,19 @@
 .featurearea,.flowerarea{
     padding: 120px 30px;
 }
-.featurearea .feature{
-    color: #014B40;
-}
-.featurearea .plantarea{
-    padding: 0 30px;
-}
-.featurearea .feature h1{
-    font-weight: 400;
-}
-.featurearea .plant1{
-    background-image: url(images/plant1.png);
-}
-.featurearea .plant2{
-    background-image: url(images/plant2.png);
-}
-.featurearea .plant3{
-    background-image: url(images/plant3.png);
-}
 .featurearea .plantbox {
     background-repeat: no-repeat;
     background-size: contain;
-    height: 356px;
-    width: 360px;
+    height: 338px;
+    width: 343px;
     border-radius: 20px;
     position: relative;
 }
+.featurearea .feature{
+    color: #014B40;
+}
 .featurearea .plantbox .buy{
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(1, 75, 64, 0.2);
     backdrop-filter: blur(6px);
     bottom: -50px;
     position: absolute;
@@ -106,6 +91,103 @@
     display: block;
     bottom: 0;
 }
+.featurearea .plantarea{
+    padding: 0 30px;
+}
+
+.featurearea .feature h1{
+    font-weight: 400;
+}
+.featurearea .plant1{
+    background-image: url(images/plant1.png);
+}
+.featurearea .plant2{
+    background-image: url(images/plant2.png);
+}
+.featurearea .plant3{
+    background-image: url(images/plant3.png);
+}
+
+
+/* only for slider css starts*/
+.sliderarea{
+    padding-bottom: 200px;
+}
+ .featurearea .slider img{    
+    border-radius: 20px;
+    width: 100%;
+    
+ }
+ .featurearea .sliderarea{
+    padding: 0 !important;
+}
+ .featurearea .slider .col-md-4{
+    padding: 15px !important;
+    position: relative;
+}
+.featurearea .slider .col-md-4 .buy{
+    background-color: rgba(1, 75, 64, 0.2);
+    backdrop-filter: blur(6px);
+    bottom: -50px;
+    position: absolute;
+    width: 100%;
+    padding: 12px 27px;
+    line-height: 1;
+    color: #fff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: none;
+}
+.featurearea .slider .buy p{
+    font-size: 22px;
+}
+.featurearea .slider .buy span{
+    font-size: 18px;
+}
+.featurearea .slider .buy .btn {
+    padding: 5px 25px;
+    float: right;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.featurearea .slider .col-md-4 img:hover + .buy{
+    display: block;
+    bottom: 0;
+}
+.carousel-indicators {
+    bottom: -80px !important;
+}
+.carousel-indicators button{
+    height: 18px !important;
+    width: 18px !important;
+    border-radius: 50%;
+    background-color: #014B40 !important;
+    margin-left: 11px !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url(images/Vector.png)!important;
+}
+.carousel-control-next, .carousel-control-prev {
+    box-shadow: 7px 1px 20px 0px #9b9b9b4d;
+    top: 41% !important;
+    width: 5% !important;
+    height: 15% !important;
+    border-radius: 50% !important;
+    background: #fff !important;
+    opacity: 1 !important;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 1.8rem !important;
+    height: 1.35rem !important;
+}
+.carousel-control-next {
+    right: -22px !important;
+}
+
+/* only for slider ends here */
+
 .searchflower{
     background-color: #014B40; 
     padding: 85px 230px;
@@ -132,9 +214,9 @@
 .flowerarea h1{
     font-weight: 400;
 }
-.featurearea .plantarea{
+/* .featurearea .plantarea{
     padding: 0 30px;
-}
+} */
 .flowerarea .flower1{
     background-image: url(images/flower1.png);
 }
@@ -157,9 +239,8 @@
     position: relative;
 }
 
-
 .flowerarea .plantbox .buy{
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(1, 75, 64, 0.2);
     backdrop-filter: blur(6px);
     bottom: -50px;
     position: absolute;
@@ -179,6 +260,10 @@
     float: right;
     border-radius: 6px;
     margin-bottom: 15px;
+}
+.flowerarea .plantbox .buy .btn:hover{
+    color: #000;
+    background-color: #fff;
 }
 
 .flowerarea .plantbox:hover .buy{
@@ -322,6 +407,56 @@
         padding: 8px 20px;
         margin-top: 11px;
     }
+
+    .sliderarea {
+            padding: 39px 10px 65px 10px !important;
+    }
+    .sliderarea .feature {
+        padding-bottom: 0.5rem !important;
+    }
+    .featurearea .slider .col-md-4 {
+        padding: 3px !important;
+    }
+    .carousel-indicators button {
+        height: 8px !important;
+        width: 8px !important;
+        border-radius: 50%;
+        background-color: #014B40 !important;
+        margin-left: 3px !important;
+    }
+    .carousel-indicators {
+        bottom: -36px !important;
+        margin-bottom: 0rem !important;
+    }
+    .carousel-control-next {
+        top: 32% !important;
+        width: 30px !important;
+        height: 30px !important;
+        left: 258px;
+    }
+    .carousel-control-next-icon {
+        width: 0.8rem !important;
+        height: 0.8rem !important;
+    }
+    .featurearea .slider .col-md-4 .buy {
+        padding: 10px 7px;
+        border-radius: 13px;
+    }
+    .featurearea .slider .buy span {
+        font-size: 12px;
+        margin: 0px 26px;
+    }
+    .featurearea .slider .buy p {
+        font-size: 12px;
+        margin: 0 11px;
+        margin-bottom: 2px;
+    }
+    .featurearea .slider .buy .btn {
+        padding: 0px 15px;
+        margin: 5px 10px 0 10px;
+        font-size: 13px;
+    }
+
     .featurearea {
         padding: 39px 30px;
     }
@@ -435,6 +570,53 @@
 }
 
 @media screen and (min-width:375px) and (max-width:425px){
+    .sliderarea {
+        padding: 40px 20px 75px 20px !important;
+    }
+    .sliderarea .feature {
+        padding-bottom: 0.5rem !important;
+    }
+    .featurearea .slider .col-md-4 {
+        padding: 5px !important;
+    }
+    .carousel-indicators button {
+        height: 8px !important;
+        width: 8px !important;
+        border-radius: 50%;
+        background-color: #014B40 !important;
+        margin-left: 3px !important;
+    }
+    .carousel-indicators {
+        bottom: -36px !important;
+        margin-bottom: 0rem !important;
+    }
+    .carousel-control-next{
+        top: 39% !important;
+        width: 34px !important;
+        height: 35px !important;
+        left: 341px;
+        /* right: -10 !important; */
+    }
+    .carousel-control-next-icon {
+        width: 1rem !important;
+        height: 1rem !important;
+    }
+    .featurearea .slider .col-md-4 .buy {
+        padding: 18px 6px;
+        border-radius: 20px;
+    }
+    .featurearea .slider .buy span {
+        font-size: 15px;
+        margin: 0px 36px;
+    }
+    .featurearea .slider .buy p {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    .featurearea .slider .buy .btn {
+        padding: 0px 18px;
+        margin: 7px 17px;
+    }
     .featurearea .plantbox{
         background-repeat: no-repeat;
         background-size: contain;
@@ -455,5 +637,28 @@
     }
     .footerarea .mail-section .input-group {
         width: 100%;
+    }
+
+}
+@media screen and (min-width:375px) and (max-width:375px){
+    .carousel-control-next {
+        top: 33% !important;
+        width: 34px !important;
+        height: 35px !important;
+        left: 289px;
+    }
+}
+@media screen and (min-width:1200px) and (max-width:1440px){
+    .header2 h1 {
+        font-size: 4rem;
+    }
+    .header2 {
+        padding: 5rem 0rem 21.75rem 50rem;
+    }
+    .footerarea .mail-section .input-group {
+        width: 362px;
+    }
+    .footerarea {
+        padding: 80px 167px;
     }
 }
